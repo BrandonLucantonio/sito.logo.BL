@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="page">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css\style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="js\bxslider\css\jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js\bxslider\js\jquery.bxslider.js"></script>
+    </head>
+    <body>
+        <!--script slider-->
+        <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.bxslider').bxSlider({
+                        auto: true,
+                        autoControls: true,
+                        stopAutoOnClick: true,
+                        pager: true,
+                        slideWidth: 10000,
+                        touchEnabled:true
+                    });
+                });
+        </script>
+        <!--fine script slider-->
+
+        <!--header-->
+        <div class="header header100 header25">
+            <div class="divlogo divlogo100 divlogo25">
+                <a href="Sito-logo.html"><img src="img/ferrarilogo.png" class="logo logo100"></a>
+            </div>
+            <div class="menu menu100 menu25">
+                <ul>
+                    <li class="active"> <a href="https://www.ferrari.com/it-IT" title="home">home</a> </li>
+    
+                    <li class="active"> <a href="javascript:void(0);" title="l'azienda">l'azienda</a>
+                        <ul>
+                            <li><a href="https://www.ferrari.com/it-IT/corporate/chi-siamo">la nostra storia</a></li>
+                            <li><a href="https://www.ferrari.com/it-IT/corporate/carriere">carriere in Ferrari</a></li>
+                            <li><a href="https://www.ferrari.com/it-IT/corporate/sostenibilita">la nostra vision</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="active"> <a href="Sito-logo-contatti.html" title="contatti">contatti</a> </li>
+                </ul>
+            </div>
+        </div>
+        <!--fine header-->
+
+        <!--banner-->
+        <div class="banner">
+            <div class="bxslider">
+                <div><img src="img/slider01.jpg"></div>
+                <div><img src="img/slider02.jpg"></div>
+                <div><img src="img/slider03.jpg"></div>
+            </div>
+        </div>
+        <!--fine banner-->
+
+        <!--body-->
+        <div class="body">
+            <form action="">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <label for="ind">Indirizzo:</label><br>
+                <input type="email" id="ind" name="ind" value=""><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <!--fine body-->
+
+        <!--footer-->
+        <div id="footer">
+            <div class="box4">
+                <div class="subbox3">
+                    <b>RACES</b><br>
+                    <br>
+                    Competizioni GT<br>
+                    Corse Clienti<br>
+                    <br>
+                    TEL: +123 4567890<br>
+                    <a href="">info@Ferrari.com</a><br>
+                </div>
+            </div>
+            <div class="box4">
+                <div class="subbox3">
+                    <b>SCUDERIA FERRARI</b><br>
+                    <br>
+                    F1-75<br>
+                    Charles Leclerc<br>
+                    Carlos Sainz<br>
+                    Ferrari Driver Academy<br>
+                </div>
+            </div>
+            <div class="box4">
+                <div class="subbox3">
+                    <b>AUTO</b><br>
+                    <br>
+                    <div id="menu2">
+                        <ul>
+                            <li class="active"> <a href="siteMuseoPI.html" title="Gamma">Gamma</a> </li>
+                            <li class="active"> <a href="" title="Configuratore Ferrari">Configuratore Ferrari</a> </li>
+                            <li class="active"> <a href="" title="Personalizzazioni">Personalizzazioni</a> </li>
+                            <li class="active"> <a href="" title="Servizi">Servizi</a> </li>
+                            <li class="active"> <a href="" title="Officine Classiche">Officine Classiche</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="subfooter"><i class="txt4">Copyright © 2023 Brandon Lucantonio.</i></div>
+        <!--fine footer-->
+    </body>
+</html>
