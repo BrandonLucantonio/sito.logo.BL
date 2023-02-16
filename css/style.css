@@ -1,0 +1,183 @@
+.page{padding: 2% 4%; background-color: rgb(255, 255, 255);}
+.logo{height: 96px;}
+.divlogo{float: none; width: 100%; background-color: white; text-align: center;}
+.header{margin-bottom: 20px; border-style: solid; border-color: black; height: 300px; background-color: rgb(220, 0, 0); width: 100%;}
+.menu, .menu ul{margin-left: -50px; list-style-type: none;}
+.menu, .menu ul li{position: relative; float: none; margin-top: 0; height: 50px; width: auto; padding: 0 5px;}
+.menu, .menu ul li a{margin-left: 5px; text-decoration: none; font-size: 15px; padding: 15px; margin-top: -12px; text-align: left; color: yellow;}
+.menu ul li a:hover{color: blue; background-color: black;}
+.clear{clear: both; line-height: 0.01px; font-size: 0.0px;}
+.banner{height: auto; padding: 5px; background-color: black; margin-bottom: 20px; width: 100%;}
+.menu li ul{z-index: 1; position: absolute; top: -40px; left: 130px; height: auto; padding: 0; display: none; width: 190px; background: rgb(220, 0, 0); border: 2px solid black;}
+.menu li:hover>ul{display: block;}
+.menu li ul li{margin-left: 0px; text-decoration: none; font-size: 15px; text-align: left; color: white; margin-top: 15px; margin-left: 15px; margin-bottom: -15px; line-height: 20px;}
+.menu li ul li a:hover{color: blue;}
+.body{width: 100%; padding: 5px; background-color: rgb(220, 0, 0); border: 2px solid black; margin-top: 20px;}
+.box{float:left; width: 50%; min-height: 600px;}
+.subbox{width: 80%; margin: 0 auto; background-color: gold; min-height: 800px;}
+.img{width: 100%; margin-bottom: 5%;}
+.txt2{text-align: center;}
+.txt3{text-align: left; padding: 4%;}
+#footer{width: 100%; height: auto; min-height: 200px; border-top: 3px solid black; border-bottom: 2px solid lightgray; margin-bottom: 5%;}
+.box4{width: 33%; float: left; min-height: 200px;}
+.subbox3{width: 100%; margin: 0 auto; background-color: rgb(255, 255, 255); min-height: 200px; text-align: center; padding: 10% 0;}
+.txt4{color: rgb(0, 0, 0);}
+.subfooter{text-align: center; width: 100%;}
+#menu2, #menu2 ul{margin-left: 0; list-style-type:none; padding-inline-start: 0px;}
+#menu2, #menu2 ul li{margin-top: 0; height: 25px; line-height: 0px; width: auto; padding: 0 0;}
+#menu2, #menu2 ul li a{margin-left: 0%; text-decoration: none; font-size: 15px; padding: 0 0; margin-top: 0; text-align: center; color: blue;}
+#menu2 ul li a:hover{color: black; text-decoration: underline;}
+  
+/*responsive design*/
+
+/*cell*/
+  @media screen and (max-width: 600px) {
+    .body100 {
+      float: none;
+      width: 100%;
+    }
+    .header100 {
+      margin-bottom: 20px; 
+      border-style: solid; 
+      border-color: black; 
+      height: auto; 
+      background-color: rgb(220, 0, 0);
+      min-height: 300px;
+      width: 100%;
+    }
+    .divlogo100 {
+      float: none; 
+      width: 100%; 
+      background-color: white;
+      text-align: center;
+    }
+    .menu100, .menu100 ul{
+      margin-left: -50px; 
+      list-style-type: none;
+    }
+    .menu100, .menu100 ul li{
+      position: relative; 
+      float: none; 
+      margin-top: 0; 
+      height: 50px;
+      width: auto; 
+      padding: 0 5px;
+    }
+    .menu100, .menu100 ul li a{
+      margin-left: 5px; 
+      text-decoration: none; 
+      font-size: 15px; 
+      padding: 15px; 
+      margin-top: -12px; 
+      text-align: left; 
+      color: yellow;
+    }
+    .menu100 ul li a:hover{
+      color: blue; 
+      background-color: black;
+    }
+    .menu100 li ul{
+      z-index: 1; 
+      position: absolute; 
+      top: -40px; 
+      left: 130px; 
+      height: auto; 
+      padding: 0; 
+      display: none; 
+      width: 190px; 
+      background: rgb(220, 0, 0); 
+      border: 2px solid black;
+    }
+    .menu100 li:hover>ul{
+      display: block;
+    }
+    .menu100 li ul li{
+      margin-left: 0px; 
+      text-decoration: none; 
+      font-size: 15px; 
+      text-align: left; 
+      color: white; 
+      margin-top: 15px; 
+      margin-left: 15px; 
+      margin-bottom: -15px; 
+      line-height: 20px;
+    }
+    .menu100 li ul li a:hover{
+      color: blue;
+    }
+  }
+
+  /*pc*/
+  @media screen and (min-width: 950px) {
+    .body25 {
+      float: left;
+      width: 25%;
+    }
+    .header25 {
+      margin-bottom: 20px; 
+      border-style: solid; 
+      border-color: black; 
+      height: 100px; 
+      background-color: rgb(220, 0, 0);
+    }
+    .divlogo25{
+      float: left; 
+      width: 73px; 
+      background-color: white;
+    }
+    .menu25, .menu25 ul{
+      margin-left: -10%; 
+      list-style-type: none;
+    }
+    .menu25, .menu25 ul li{
+      position: relative; 
+      float: left; 
+      margin-top: 0; 
+      height: 100px; 
+      line-height: 60px; 
+      width: auto; 
+      padding: 0 5px;
+    }
+    .menu25, .menu25 ul li a{
+      margin-left: 10px; 
+      text-decoration: none; 
+      font-size: 15px; 
+      padding: 35px; 
+      margin-top: -30px; 
+      text-align: center; 
+      color: yellow;
+    }
+    .menu25 ul li a:hover{
+      color: blue; 
+      background-color: black;
+    }
+    .menu25 li ul{
+      z-index: 1; 
+      position: absolute; 
+      top: 72px; 
+      left: -20px; 
+      height: auto; 
+      padding: 0; 
+      display: none; 
+      width: 220px; 
+      background: rgb(220, 0, 0); 
+      border: 2px solid black;
+    }
+    .menu25 li:hover>ul{
+      display: block;
+    }
+    .menu25 li ul li{
+      margin-left: 0px; 
+      text-decoration: none; 
+      font-size: 15px; 
+      text-align: center; 
+      color: white; 
+      margin-top: 35px; 
+      margin-left: 15px; 
+      margin-bottom: -35px; 
+      line-height: 20px;
+    }
+    .menu25 li ul li a:hover{
+      color: blue;
+    }
+  }
